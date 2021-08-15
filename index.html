@@ -5,6 +5,19 @@
         <title>stupid</title>
     </head>
     <body>
-        <h1>이거 보는 사람 바보 숛오</h1>
+        <button onclick="changename">Change Name</button>
+        <h1 id="changetext">이거 보는 사람 바보 숛오</h1>
+        <script>
+            const ct = document.ElementById("changetext")
+            const chname = prompt("What's Change Name?");
+            function changename(){
+                if(!chname == ""){
+                    ct.innerHTML = chname + "님이 바보 숛오"
+                }
+                else{
+                    ct.innerHTML = "그냥 너가 바보 숛오"
+                }
+            }
+        </script>
     </body>
 </html>
