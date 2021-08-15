@@ -1,1 +1,1 @@
-# ryurack
+# https://rorackbot.github.io/ryurack/
